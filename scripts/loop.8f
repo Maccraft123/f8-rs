@@ -1,0 +1,7 @@
+(a "simple" loop that counts to 10)
+1                           (start at 1)
+  .dup .print .newline      (print the current number)  
+  1 .+                      (add 1) 
+  .dup  11 .swap .>?       (is 11 > n?) 
+-10 .cjump                  (then jump 10 words back -- count carefully) 
+~end of loop here~ .print .newline

@@ -1,0 +1,4 @@
+(this is a comment, you can tell because it is enclosed in parens.
+ the program below pushes hello world to stack, prints top of stack,
+ and prints a line break)
+~Hello, world!~ (this is an inline comment) .print .newline 
